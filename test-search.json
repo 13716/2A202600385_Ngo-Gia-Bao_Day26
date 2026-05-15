@@ -1,0 +1,6 @@
+{
+  "collection": "users",
+  "filter": { "country": "VN" },
+  "fields": ["id", "name", "email"],
+  "limit": 10
+}

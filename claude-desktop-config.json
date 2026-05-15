@@ -1,0 +1,28 @@
+{
+  "name": "Lab26 MCP Server",
+  "description": "Sample Claude Desktop integration for the Lab 26 custom MCP server.",
+  "endpoint": "http://localhost:3000/mcp/schema",
+  "tools": [
+    {
+      "name": "search",
+      "schema_url": "http://localhost:3000/mcp/schema",
+      "invoke_url": "http://localhost:3000/mcp/tool/search"
+    },
+    {
+      "name": "insert",
+      "schema_url": "http://localhost:3000/mcp/schema",
+      "invoke_url": "http://localhost:3000/mcp/tool/insert"
+    },
+    {
+      "name": "aggregate",
+      "schema_url": "http://localhost:3000/mcp/schema",
+      "invoke_url": "http://localhost:3000/mcp/tool/aggregate"
+    }
+  ],
+  "resources": [
+    {
+      "name": "db-schema",
+      "resource_url": "http://localhost:3000/mcp/resource/db-schema"
+    }
+  ]
+}

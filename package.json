@@ -1,0 +1,16 @@
+{
+  "name": "lab26-mcp-server",
+  "version": "1.0.0",
+  "description": "Custom MCP server with search, insert, aggregate tools and resource schema exposure.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["MCP", "model-context-protocol", "tools", "server"],
+  "author": "Lab 26",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.4"
+  }
+}

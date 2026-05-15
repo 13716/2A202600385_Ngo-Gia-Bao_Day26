@@ -1,0 +1,7 @@
+{
+  "collection": "orders",
+  "pipeline": [
+    { "$match": { "status": "paid" } },
+    { "$group": { "by": "status", "count": { "$sum": 1 } } }
+  ]
+}

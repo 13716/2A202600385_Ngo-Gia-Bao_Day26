@@ -1,0 +1,9 @@
+{
+  "collection": "users",
+  "document": {
+    "name": "Pham Van D",
+    "email": "d@example.com",
+    "country": "VN",
+    "role": "admin"
+  }
+}
